@@ -33,8 +33,9 @@ GEM
       rubypython (>= 0.5.1)
     rack (1.3.2)
     rake (0.9.2)
-    rb-fsevent (0.4.1)
-    rdiscount (1.6.8)
+    rb-inotify (0.8.6)
+      ffi (>= 0.5.0)
+    redcarpet (1.17.2)
     rubypants (0.2.0)
     rubypython (0.5.1)
       blankslate (>= 2.1.2.3)
@@ -53,6 +54,6 @@ DEPENDENCIES
   pygments.rb
   rack
   rake
-  rb-fsevent
-  rdiscount
+  rb-inotify
+  redcarpet
   rubypants

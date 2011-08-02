@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://write.jayferd.us
+title: Things I Remember to Write Down
+subtitle:
+author: Jay Adkisson
 simple_search: http://google.com/search
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
@@ -27,7 +27,7 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-markdown: rdiscount
+markdown: redcarpet
 pygments: false # default python pygments have been replaced by pygments.rb
 
 paginate: 10 # Posts per page on the blog index
@@ -48,7 +48,7 @@ default_asides: [asides/recent_posts.html, asides/twitter.html, asides/delicious
 # ----------------------- #
 
 # Twitter
-twitter_user:
+twitter_user: jayferd
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
