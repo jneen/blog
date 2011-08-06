@@ -19,6 +19,8 @@ echo "$ch" # don't forget to quote it!
 
 ### the explanation
 
+<!-- more -->
+
 So it turns out that it's pretty difficult to read exactly one character from a stream.
 From the manual for `read` (usually in `man builtins`):
 
